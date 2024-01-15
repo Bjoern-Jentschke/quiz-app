@@ -104,15 +104,22 @@ nav {
     justify-content: space-around;
     align-items: center;
     position: relative;
-
 }
 
-
-.footer_part1, .footer_part2, .footer_part3 {
+.a1, .a2, .a3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
     height: 75px;
-    padding-top: 10px;
 }
 
-.img1, .img2, .img3 {
-    height: 80%;
+.a1:hover, .a2:hover, .a3:hover {
+    background-image: repeating-linear-gradient(
+  45deg,
+  #000000,
+  #FFFFFF 5px,
+  #000000 5px,
+  #FFFFFF 0px
+);
+
 }

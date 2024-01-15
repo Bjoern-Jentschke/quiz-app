@@ -22,10 +22,28 @@ h1 {
 main {
     border: solid black;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     height: 700px;
+}
+
+.main_book  {
+    position: absolute;
+    height: 70px;
+    top: 15px;
+    right: 100px;
+    z-index: 2;
+    background-color: white;
+}
+
+.main_book2 {
+    position: absolute;
+    height: 70px;
+    top: 360px;
+    right: 100px;
+    z-index: 2;
 }
 
 .block1 {
@@ -90,3 +108,5 @@ nav {
 .img1, .img2, .img3 {
     height: 80%;
 }
+
+.grey_box

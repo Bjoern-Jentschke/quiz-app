@@ -23,7 +23,7 @@ main {
     border: solid black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 700px;
 }
@@ -31,16 +31,16 @@ main {
 .block1 {
     border: solid black;
     height: 300px;
-    width: 60%;
-    margin-bottom: 10px; 
+    width: 80%;
+    margin-bottom: 20px; 
 }
 
 .block2 {
     border: solid black;
     height: 300px;
-    width: 60%;
+    width: 80%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 footer {

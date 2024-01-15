@@ -103,10 +103,14 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+
+.footer_part1, .footer_part2, .footer_part3 {
+    height: 75px;
+    padding-top: 10px;
 }
 
 .img1, .img2, .img3 {
     height: 80%;
 }
-
-.grey_box

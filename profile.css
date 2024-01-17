@@ -110,6 +110,11 @@ input:checked + .slider:before {
     border-radius: 50%;
   }
 
+.button {
+  position: absolute;
+  right: 2rem;
+}
+
 nav {
     border: solid grey;
     height: 75px;

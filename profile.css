@@ -117,11 +117,6 @@ input:checked + .slider:before {
   right: 2rem;
 }
 
-.button--toggle {
-  background-color: black;
-  color: white;
-}
-
 nav {
     border: solid grey;
     height: 75px;
